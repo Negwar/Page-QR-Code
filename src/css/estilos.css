@@ -1,0 +1,45 @@
+body{
+    background-color: #d1d0f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.informacoes-qrcode{
+    background-color: aliceblue;
+    width: 300px;
+    height: 450px;
+    border: 2px #d1d0f2;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.informacoes-qrcode img{
+    width: 260px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.informacoes-qrcode .conteudo{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.informacoes-qrcode .texto{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    color:darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+}
